@@ -1,24 +1,26 @@
 {
     "development": {
-        "domain": "localhost",
+        "domain": "localhost:3000",
         "db": {
             "username": "",
             "password": "",
             "database": "hackmd",
             "host": "localhost",
             "port": "3306",
-            "dialect": "mysql"
+            "dialect": "sqlite"
         }
     },
     "production": {
-        "domain": "localhost",
+        "domain": "paashackmd.cloudapps.digital",
+        "protocolusessl" : "true",
+        "usecdn" : "true",
         "db": {
             "username": "",
             "password": "",
             "database": "hackmd",
             "host": "localhost",
             "port": "5432",
-            "dialect": "postgres"
+            "dialect": "sqlite"
         },
         "facebook": {
             "clientID": "change this",

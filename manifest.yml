@@ -1,0 +1,6 @@
+---
+applications:
+- name: paashackmd
+  command: node app.js
+  memory: 512M
+  buildpack: nodejs_buildpack
