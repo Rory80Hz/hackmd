@@ -13,7 +13,6 @@
     "production": {
         "domain": "paashackmd.cloudapps.digital",
         "protocolusessl" : "true",
-        "usecdn" : "true",
         "db": {
             "username": "",
             "password": "",
